@@ -5,4 +5,4 @@ declare function Option({ Renderer, data, children, optionWrapperClassName, ...p
     data: any;
     children: any;
     optionWrapperClassName: any;
-}): JSX.Element;
+}): import("react/jsx-runtime").JSX.Element;

@@ -17,7 +17,7 @@ export declare const OLD_BUTTON_SIZES: {
     readonly md: "medium";
     readonly lg: "large";
 };
-export declare type Size = typeof SIZES[keyof typeof SIZES] | keyof typeof OLD_BUTTON_SIZES;
+export type Size = typeof SIZES[keyof typeof SIZES] | keyof typeof OLD_BUTTON_SIZES;
 export declare const getActualSize: (size?: Size) => any;
 export declare const BUTTON_KIND_CLASS_NAMES: {
     PRIMARY: string;

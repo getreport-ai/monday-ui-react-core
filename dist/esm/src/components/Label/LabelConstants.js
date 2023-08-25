@@ -1,1 +1,0 @@
-var i,n;!function(i){i.FILL="fill",i.LINE="line"}(i||(i={})),function(i){i.PRIMARY="primary",i.DARK="dark",i.NEGATIVE="negative",i.POSITIVE="positive"}(n||(n={}));export{n as LabelColor,i as LabelKind};

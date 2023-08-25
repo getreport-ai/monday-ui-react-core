@@ -5,4 +5,4 @@ declare function Menu({ children, Renderer, selectProps, dropdownMenuWrapperClas
     Renderer: any;
     selectProps: any;
     dropdownMenuWrapperClassName: any;
-}): JSX.Element;
+}): import("react/jsx-runtime").JSX.Element;

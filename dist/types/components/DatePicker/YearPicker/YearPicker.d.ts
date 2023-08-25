@@ -5,5 +5,5 @@ interface YearPickerProps {
     changeCurrentDate: (date: Moment) => void;
     "data-testid"?: string;
 }
-declare const YearPicker: ({ selectedDate, isYearBlocked, changeCurrentDate, "data-testid": dateTestId }: YearPickerProps) => JSX.Element;
+declare const YearPicker: ({ selectedDate, isYearBlocked, changeCurrentDate, "data-testid": dateTestId }: YearPickerProps) => import("react/jsx-runtime").JSX.Element;
 export default YearPicker;

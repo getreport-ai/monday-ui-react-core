@@ -1,2 +1,2 @@
 export default SingleValue;
-declare function SingleValue(props: any): JSX.Element;
+declare function SingleValue(props: any): import("react/jsx-runtime").JSX.Element;

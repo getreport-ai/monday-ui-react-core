@@ -6,5 +6,5 @@ interface DatePickerHeaderProps {
     hideNavigationKeys: boolean;
     "data-testid"?: string;
 }
-declare const DatePickerHeader: (props: DatePickerHeaderProps) => JSX.Element;
+declare const DatePickerHeader: (props: DatePickerHeaderProps) => import("react/jsx-runtime").JSX.Element;
 export default DatePickerHeader;

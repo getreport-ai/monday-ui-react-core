@@ -4,11 +4,11 @@ export function Tip({ className, title, children, emoji, type }: {
     children: any;
     emoji: any;
     type?: import("../../../components/AttentionBox/AttentionBoxConstants").AttentionBoxType;
-}): JSX.Element;
+}): import("react/jsx-runtime").JSX.Element;
 export namespace Tip {
     namespace propTypes {
         const title: PropTypes.Requireable<string>;
-        const children: PropTypes.Requireable<string | PropTypes.ReactElementLike>;
+        const children: PropTypes.Requireable<NonNullable<string | PropTypes.ReactElementLike>>;
         const className: PropTypes.Requireable<string>;
     }
     namespace defaultProps {

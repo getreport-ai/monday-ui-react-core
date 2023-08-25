@@ -14,8 +14,8 @@ export declare enum SliderColor {
     NEGATIVE = "negative",
     POSITIVE = "positive"
 }
-export declare type SliderSize = typeof Slider.sizes[keyof typeof Slider.sizes];
-export declare type SliderContextSelection = {
+export type SliderSize = typeof Slider.sizes[keyof typeof Slider.sizes];
+export type SliderContextSelection = {
     max: number;
     min: number;
     ranged: boolean;
@@ -23,7 +23,7 @@ export declare type SliderContextSelection = {
     value: number | number[];
     valueText: string | string[];
 };
-export declare type SliderContextUI = {
+export type SliderContextUI = {
     active: number;
     ariaLabel: string;
     ariaLabelledby: string;
@@ -35,7 +35,7 @@ export declare type SliderContextUI = {
     shapeTestId: (subElement: string) => string;
     showValue: boolean;
 };
-export declare type SliderContextActions = {
+export type SliderContextActions = {
     setActive: (value: number) => void;
     setFocused: (value: number) => void;
     setDragging: (value: number) => void;
@@ -44,7 +44,7 @@ export declare type SliderContextActions = {
     decreaseValue: (consumerStep?: number) => void;
     increaseValue: (consumerStep?: number) => void;
 };
-export declare type SliderContextInfix = {
+export type SliderContextInfix = {
     /**
      * Show selected from Slider range value
      */

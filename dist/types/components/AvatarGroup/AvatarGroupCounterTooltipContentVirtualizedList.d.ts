@@ -3,7 +3,7 @@ import VibeComponentProps from "../../types/VibeComponentProps";
 import { AvatarType } from "../Avatar/AvatarConstants";
 import { AvatarProps } from "../Avatar/Avatar";
 import { ElementContent } from "../../types";
-export declare type AvatarItem = {
+export type AvatarItem = {
     value: AvatarProps & {
         tooltipContent: ElementContent;
     };

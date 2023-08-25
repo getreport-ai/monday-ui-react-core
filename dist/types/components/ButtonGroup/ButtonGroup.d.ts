@@ -4,7 +4,7 @@ import { DialogPosition } from "../../constants";
 import { ButtonType, Size } from "../Button/ButtonConstants";
 import { SubIcon, VibeComponentProps } from "../../types";
 import { MoveBy } from "../../types/MoveBy";
-declare type ButtonGroupOption = {
+type ButtonGroupOption = {
     icon?: SubIcon;
     leftIcon?: SubIcon;
     ariaLabel?: string;

@@ -1,2 +1,2 @@
 import { ReactNode } from "react";
-export declare type ElementContent = ReactNode | ReactNode[];
+export type ElementContent = ReactNode | ReactNode[];

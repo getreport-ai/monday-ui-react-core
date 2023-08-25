@@ -4,5 +4,5 @@ interface YearsListProps {
     onSelect: (year: number) => void;
     selectedYear: string;
 }
-declare const YearsList: ({ yearsItems, isYearBlocked, onSelect, selectedYear }: YearsListProps) => JSX.Element;
+declare const YearsList: ({ yearsItems, isYearBlocked, onSelect, selectedYear }: YearsListProps) => import("react/jsx-runtime").JSX.Element;
 export default YearsList;

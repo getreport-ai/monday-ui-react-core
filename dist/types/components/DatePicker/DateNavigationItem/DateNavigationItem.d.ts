@@ -7,5 +7,5 @@ interface DateNavigationItemProps {
     kind: keyof typeof ICONS;
     onClick?: () => void;
 }
-declare const DateNavigationItem: ({ kind, onClick }: DateNavigationItemProps) => JSX.Element;
+declare const DateNavigationItem: ({ kind, onClick }: DateNavigationItemProps) => import("react/jsx-runtime").JSX.Element;
 export default DateNavigationItem;

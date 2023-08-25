@@ -15,7 +15,7 @@ interface CounterBadgeProps extends CounterProps {
 interface IndicatorBadgeProps extends IndicatorProps {
     type?: BadgeType.INDICATOR;
 }
-declare type BadgeProps = BadgeBaseProps & (CounterBadgeProps | IndicatorBadgeProps);
+type BadgeProps = BadgeBaseProps & (CounterBadgeProps | IndicatorBadgeProps);
 declare const Badge: VibeComponent<BadgeProps> & {
     types?: typeof BadgeType;
     alignments?: typeof BadgeAlignments;

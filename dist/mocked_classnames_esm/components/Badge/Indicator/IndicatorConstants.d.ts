@@ -1,4 +1,0 @@
-export declare enum IndicatorColor {
-    PRIMARY = "primary",
-    NOTIFICATION = "notification"
-}

@@ -1,3 +1,3 @@
 export declare const StickyCategoryHeader: ({ label }: {
     label: string;
-}) => JSX.Element;
+}) => import("react/jsx-runtime").JSX.Element;

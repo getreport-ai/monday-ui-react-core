@@ -1,1 +1,1 @@
-export declare type ButtonValue = string | number;
+export type ButtonValue = string | number;

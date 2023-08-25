@@ -2,7 +2,7 @@ import { ComponentType, CSSProperties } from "react";
 import { GridChildComponentProps, ScrollDirection } from "react-window";
 import VibeComponentProps from "src/types/VibeComponentProps";
 import { VibeComponent } from "../../types";
-declare type ItemType = {
+type ItemType = {
     value: string;
     height: number;
     width: number;

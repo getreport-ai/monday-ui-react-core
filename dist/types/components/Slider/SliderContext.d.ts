@@ -31,7 +31,7 @@ export interface SliderProviderProps extends SliderProps {
         selectionIndicatorWidth?: string;
     };
 }
-export declare function SliderProvider({ children, ariaLabel, ariaLabelledby, color, "data-testid": dataTestId, defaultValue, disabled, max, min, onChange, ranged, showValue, size, step, value, valueFormatter, valueText, infixOptions }: SliderProviderProps): JSX.Element;
+export declare function SliderProvider({ children, ariaLabel, ariaLabelledby, color, "data-testid": dataTestId, defaultValue, disabled, max, min, onChange, ranged, showValue, size, step, value, valueFormatter, valueText, infixOptions }: SliderProviderProps): import("react/jsx-runtime").JSX.Element;
 export declare function useSliderUi(): SliderContextUI;
 export declare function useSliderInfix(): SliderContextInfix;
 export declare function useSliderSelection(): SliderContextSelection;

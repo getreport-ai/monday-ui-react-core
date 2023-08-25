@@ -1,2 +1,2 @@
 export default Control;
-declare function Control(props: any): JSX.Element;
+declare function Control(props: any): import("react/jsx-runtime").JSX.Element;

@@ -15,4 +15,4 @@ export declare const avatarRenderer: (item: {
     value: AvatarProps & {
         tooltipContent: ElementContent;
     };
-}, index: number, style: CSSProperties, type: AvatarType, displayAsGrid: boolean) => JSX.Element;
+}, index: number, style: CSSProperties, type: AvatarType, displayAsGrid: boolean) => import("react/jsx-runtime").JSX.Element;

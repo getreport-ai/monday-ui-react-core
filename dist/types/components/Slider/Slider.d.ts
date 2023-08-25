@@ -1,7 +1,7 @@
 import React, { ReactElement } from "react";
 import { IconType } from "../Icon/IconConstants";
 import { SliderColor, SliderSize } from "./SliderConstants";
-export declare type SliderProps = {
+export type SliderProps = {
     /**
      * Define a string that labels the current element (Slider)
      */

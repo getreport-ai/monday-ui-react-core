@@ -4,7 +4,7 @@ export declare const colorsMap: {
 }[];
 export declare const colorsHashMap: Map<any, any>;
 export declare const contentColors: readonly ["grass_green", "done-green", "bright-green", "saladish", "egg_yolk", "working_orange", "dark-orange", "peach", "sunset", "stuck-red", "dark-red", "sofia_pink", "lipstick", "bubble", "purple", "dark_purple", "berry", "dark_indigo", "indigo", "navy", "bright-blue", "dark-blue", "aquamarine", "chili-blue", "river", "winter", "explosive", "american_gray", "blackish", "brown", "orchid", "tan", "sky", "coffee", "royal", "teal", "lavender", "steel", "lilac", "pecan"];
-export declare type CONTENT_COLORS_VALUES = typeof contentColors[number];
+export type CONTENT_COLORS_VALUES = typeof contentColors[number];
 export declare enum ColorStyle {
     REGULAR = "regular",
     HOVER = "hover",
@@ -109,5 +109,5 @@ export declare const ElementAllowedColor: {
     LILAC: ContentColorByName.LILAC;
     PECAN: ContentColorByName.PECAN;
 };
-export declare type ElementColor = typeof ElementAllowedColor[keyof typeof ElementAllowedColor] | string;
+export type ElementColor = typeof ElementAllowedColor[keyof typeof ElementAllowedColor] | string;
 export declare function getElementColor(colorValue: keyof typeof ElementAllowedColor | string, isSelectedPalette?: boolean, isSelectedHoverPalette?: boolean): string;

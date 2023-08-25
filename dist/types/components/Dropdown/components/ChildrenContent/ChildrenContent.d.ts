@@ -2,4 +2,4 @@ export function ChildrenContent({ data, children, readOnly }: {
     data: any;
     children: any;
     readOnly: any;
-}): JSX.Element;
+}): import("react/jsx-runtime").JSX.Element;

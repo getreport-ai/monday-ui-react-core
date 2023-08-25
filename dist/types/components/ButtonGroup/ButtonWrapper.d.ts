@@ -12,5 +12,5 @@ interface ButtonWrapperProps extends ButtonProps {
     tooltipContainerSelector?: string;
     tooltipMoveBy?: MoveBy;
 }
-export declare const ButtonWrapper: ({ tooltipContent, tooltipPosition, tooltipHideDelay, tooltipShowDelay, tooltipContainerSelector, tooltipMoveBy, ...otherProps }: ButtonWrapperProps) => JSX.Element;
+export declare const ButtonWrapper: ({ tooltipContent, tooltipPosition, tooltipHideDelay, tooltipShowDelay, tooltipContainerSelector, tooltipMoveBy, ...otherProps }: ButtonWrapperProps) => import("react/jsx-runtime").JSX.Element;
 export {};

@@ -4,4 +4,4 @@ export declare enum ListWrapperComponentType {
     UL = "ul",
     OL = "ol"
 }
-export declare type ListWrapperComponentStringType = "div" | "nav" | "ul" | "ol";
+export type ListWrapperComponentStringType = "div" | "nav" | "ul" | "ol";
