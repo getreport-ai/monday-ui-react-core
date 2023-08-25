@@ -1,0 +1,1 @@
+import{jsx as t}from"react/jsx-runtime";import e from"./AttentionBoxLink.module.scss.js";var r=function(r){return t("a",Object.assign({className:e.attentionBoxLink,href:r.href},{children:r.text}))};export{r as default};

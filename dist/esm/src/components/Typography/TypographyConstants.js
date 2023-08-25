@@ -1,0 +1,1 @@
+var n,r;!function(n){n.PRIMARY="primary",n.SECONDARY="secondary",n.ON_PRIMARY="onPrimary",n.ON_INVERTED="onInverted"}(n||(n={})),function(n){n.START="start",n.CENTER="center",n.END="end"}(r||(r={}));export{r as TypographyAlign,n as TypographyColor};
