@@ -1,0 +1,1 @@
+var r={ENTER:"Enter",SPACE:" ",ESCAPE:"Escape",DOWN_ARROW:"ArrowDown",UP_ARROW:"ArrowUp",LEFT_ARROW:"ArrowLeft",RIGHT_ARROW:"ArrowRight",TAB:"Tab"},A=["Enter"," "],R=["ArrowUp","ArrowDown"];export{A as SELECTION_KEYS,R as UP_DOWN_ARROWS,r as keyCodes};
