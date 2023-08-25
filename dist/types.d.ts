@@ -51,7 +51,6 @@ export { default as SearchComponent } from "./types/components/Search/Search";
 export { default as Search } from "./types/components/Search/Search";
 export { default as Skeleton } from "./types/components/Skeleton/Skeleton";
 export { default as Steps } from "./types/components/Steps/Steps";
-export { default as DatePicker } from "./types/components/DatePicker/DatePicker";
 export { default as Tab } from "./types/components/Tabs/Tab/Tab";
 export { default as TabPanels } from "./types/components/Tabs/TabPanels/TabPanels";
 export { default as TabsContext } from "./types/components/Tabs/TabsContext/TabsContext";

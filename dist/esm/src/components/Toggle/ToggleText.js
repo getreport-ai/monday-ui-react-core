@@ -1,1 +1,0 @@
-import{defineProperty as e}from"../../../_virtual/_rollupPluginBabelHelpers.js";import{jsx as r}from"react/jsx-runtime";import s from"classnames";import a from"./ToggleText.module.scss.js";var t=function(t){var l=t.children;return r("span",Object.assign({className:s(a.text,e({},a.disabled,t.disabled))},{children:l}))};export{t as default};

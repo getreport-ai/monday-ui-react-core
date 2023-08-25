@@ -1,1 +1,0 @@
-var e,t,a="Next",n="Back";!function(e){e.NUMBERS="numbers",e.GALLERY="gallery"}(e||(e={})),function(e){e.PAGE="page",e.STEP="step",e.LOCATION="location",e.DATE="date",e.TIME="time"}(t||(t={}));export{n as BACK_DESCRIPTION,a as NEXT_DESCRIPTION,t as StepsDotAriaCurrent,e as StepsType};

@@ -1,1 +1,0 @@
-import{jsx as s}from"react/jsx-runtime";import e from"classnames";import a from"./TipseenImage.module.scss.js";var m=function(m){return s("img",{src:m.src,alt:m.alt,className:e(a.tipseenImage,m.className)})};export{m as default};
