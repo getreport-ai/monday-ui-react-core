@@ -1,5 +1,5 @@
 import "react-dates/initialize";
-import "react-dates/lib/css/_datepicker.css";
+//import "react-dates/lib/css/_datepicker.css";
 import { DayOfWeekShape } from "react-dates";
 import { Moment, RangeDate } from "./types";
 import VibeComponentProps from "../../types/VibeComponentProps";
