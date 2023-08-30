@@ -1,5 +1,5 @@
 import { FC } from "react";
-type Contributor = {
+declare type Contributor = {
     name: string;
     href: string;
     key?: string;

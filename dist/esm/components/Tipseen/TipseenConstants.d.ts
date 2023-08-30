@@ -8,6 +8,6 @@ export declare enum TipseenCloseButtonTheme {
     LIGHT = "light",
     DARK = "dark"
 }
-export type ButtonPropsBackwardCompatible = ButtonProps & {
+export declare type ButtonPropsBackwardCompatible = ButtonProps & {
     content?: ElementContent;
 };

@@ -1,4 +1,4 @@
-type ActiveDependentHelper = {
+declare type ActiveDependentHelper = {
     isItemSelectable: (index: number) => boolean;
     visualFocusItemIndex: number;
     itemsCount: number;

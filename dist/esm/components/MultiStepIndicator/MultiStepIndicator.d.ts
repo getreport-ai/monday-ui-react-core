@@ -2,7 +2,7 @@ import React from "react";
 import { Size, MultiStepType, StepStatus, TextPlacement } from "./MultiStepConstants";
 import { VibeComponentProps, VibeComponent, SubIcon } from "../../types";
 import { IconType } from "../Icon/IconConstants";
-export type Step = {
+export declare type Step = {
     titleText: string;
     subtitleText: string;
     status: StepStatus;

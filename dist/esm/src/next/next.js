@@ -1,1 +1,1 @@
-export{default as Heading}from"../components/Title/Title.js";
+export{default as Heading}from"../components/Heading/Heading.js";

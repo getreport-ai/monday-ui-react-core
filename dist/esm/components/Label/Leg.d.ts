@@ -1,5 +1,5 @@
 declare const Leg: {
-    (): import("react/jsx-runtime").JSX.Element;
+    (): JSX.Element;
     displayName: string;
 };
 export default Leg;

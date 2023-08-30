@@ -1,6 +1,5 @@
 import React, { FC, ReactElement } from "react";
-import { VibeComponentProps } from "../../types";
-import { ElementContent } from "../../types/ElementContent";
+import { VibeComponentProps, ElementContent } from "../../types";
 interface ExpandCollapseProps extends VibeComponentProps {
     /**
      * Component as parameter to be rendered as header

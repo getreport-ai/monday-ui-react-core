@@ -2,7 +2,7 @@ import { CSSProperties, ForwardedRef, ReactElement } from "react";
 import { Layout, ScrollDirection } from "react-window";
 import VibeComponentProps from "src/types/VibeComponentProps";
 import VibeComponent from "../../types/VibeComponent";
-export type VirtualizedListItem = {
+export declare type VirtualizedListItem = {
     value?: string | Record<string, unknown>;
     height?: number;
     width?: number;

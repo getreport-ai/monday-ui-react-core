@@ -1,5 +1,5 @@
 import { TooltipProps } from "../../Tooltip/Tooltip";
-type HookResult = {
+declare type HookResult = {
     wrapperProps: {
         tabIndex?: number;
         className?: string;

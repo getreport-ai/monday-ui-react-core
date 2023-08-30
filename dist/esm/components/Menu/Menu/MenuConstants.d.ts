@@ -1,3 +1,3 @@
-export type CloseMenuOption = {
+export declare type CloseMenuOption = {
     propagate?: boolean;
 };

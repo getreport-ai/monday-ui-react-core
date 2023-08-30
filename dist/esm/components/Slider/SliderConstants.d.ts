@@ -14,8 +14,8 @@ export declare enum SliderColor {
     NEGATIVE = "negative",
     POSITIVE = "positive"
 }
-export type SliderSize = typeof Slider.sizes[keyof typeof Slider.sizes];
-export type SliderContextSelection = {
+export declare type SliderSize = typeof Slider.sizes[keyof typeof Slider.sizes];
+export declare type SliderContextSelection = {
     max: number;
     min: number;
     ranged: boolean;
@@ -23,7 +23,7 @@ export type SliderContextSelection = {
     value: number | number[];
     valueText: string | string[];
 };
-export type SliderContextUI = {
+export declare type SliderContextUI = {
     active: number;
     ariaLabel: string;
     ariaLabelledby: string;
@@ -35,7 +35,7 @@ export type SliderContextUI = {
     shapeTestId: (subElement: string) => string;
     showValue: boolean;
 };
-export type SliderContextActions = {
+export declare type SliderContextActions = {
     setActive: (value: number) => void;
     setFocused: (value: number) => void;
     setDragging: (value: number) => void;
@@ -44,7 +44,7 @@ export type SliderContextActions = {
     decreaseValue: (consumerStep?: number) => void;
     increaseValue: (consumerStep?: number) => void;
 };
-export type SliderContextInfix = {
+export declare type SliderContextInfix = {
     /**
      * Show selected from Slider range value
      */
@@ -53,7 +53,7 @@ export type SliderContextInfix = {
      * Options for initial/start/prefix element, it can be one of:
      *  - Any Component (react component, node, text, number etc.)
      *  - Or it can be an object of options for Icons component (see Icon components props)
-     *  - Or it can be an object for Label (Icon, Title - and other components)
+     *  - Or it can be an object for Label (Icon, Heading - and other components)
      *  - Or it can be Render Props Function witch are getting value and valueText
      */
     prefix?: {

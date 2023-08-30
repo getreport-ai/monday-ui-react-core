@@ -48,14 +48,14 @@ export declare function comboboxItemRenderer({ item, style, optionEvents, option
     optionEvents: IComboboxOptionEvents;
     optionRenderData: any;
     isVirtualized: boolean;
-}): import("react/jsx-runtime").JSX.Element;
+}): JSX.Element;
 export declare function dividerItemRenderer({ id, height }: {
     id: string;
     height: number;
-}): import("react/jsx-runtime").JSX.Element;
+}): JSX.Element;
 export declare function categoryItemRenderer({ id, category, className }: {
     id: string;
     category: IComboboxCategory;
     className: string;
-}): import("react/jsx-runtime").JSX.Element;
-export declare function optionItemRenderer({ id, index, option, className, onOptionClick, onOptionEnter, onOptionLeave, optionLineHeight, optionRenderer, scrollRef, shouldScrollToSelectedItem, activeItemIndex, visualFocusItemIndex }: IOptionItemRendererArgs): import("react/jsx-runtime").JSX.Element;
+}): JSX.Element;
+export declare function optionItemRenderer({ id, index, option, className, onOptionClick, onOptionEnter, onOptionLeave, optionLineHeight, optionRenderer, scrollRef, shouldScrollToSelectedItem, activeItemIndex, visualFocusItemIndex }: IOptionItemRendererArgs): JSX.Element;

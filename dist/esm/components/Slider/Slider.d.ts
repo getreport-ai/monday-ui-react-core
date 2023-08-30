@@ -1,7 +1,7 @@
 import React, { ReactElement } from "react";
 import { IconType } from "../Icon/IconConstants";
 import { SliderColor, SliderSize } from "./SliderConstants";
-export type SliderProps = {
+export declare type SliderProps = {
     /**
      * Define a string that labels the current element (Slider)
      */
@@ -93,7 +93,7 @@ export type SliderProps = {
      * Options for initial/start/prefix element, it can be one of:
      *  - Any Component (react component, node, text, number etc.)
      *  - Or it can be an object of options for Icons component (see Icon components props)
-     *  - Or it can be an object for Label (Icon, Title - and other components)
+     *  - Or it can be an object for Label (Icon, Heading - and other components)
      *  - Or it can be Render Props Function witch are getting value and valueText
      */
     prefix?: {
