@@ -8,7 +8,7 @@ declare const OLD_TEXT_FIELD_SIZES: {
     md: "medium";
     l: "large";
 };
-export type TextFieldSize = typeof BASE_SIZES[keyof typeof BASE_SIZES] | keyof typeof OLD_TEXT_FIELD_SIZES;
+export declare type TextFieldSize = typeof BASE_SIZES[keyof typeof BASE_SIZES] | keyof typeof OLD_TEXT_FIELD_SIZES;
 export declare const getActualSize: (size: TextFieldSize) => keyof typeof SIZE_MAPPER;
 export declare enum TextFieldTextType {
     TEXT = "text",

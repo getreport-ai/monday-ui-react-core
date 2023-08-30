@@ -4,7 +4,7 @@ import VibeComponentProps from "../../types/VibeComponentProps";
 import { AvatarSize, AvatarType } from "../Avatar/AvatarConstants";
 import { CounterColor } from "../Counter/CounterConstants";
 import { TooltipProps } from "../Tooltip/Tooltip";
-export type AvatarGroupCounterVisualProps = {
+export declare type AvatarGroupCounterVisualProps = {
     color?: CounterColor.LIGHT | CounterColor.DARK;
     count?: number;
     prefix?: string;

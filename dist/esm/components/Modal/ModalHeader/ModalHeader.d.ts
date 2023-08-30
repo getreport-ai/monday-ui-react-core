@@ -4,7 +4,7 @@ import VibeComponentProps from "../../../types/VibeComponentProps";
 import { ElementContent } from "src/types/ElementContent";
 export interface ModalHeaderProps extends VibeComponentProps {
     /**
-     * Title of the modal - using string is a recommended standard, as it provides well-defined styles. Using it with JSX content should be according to design guidelines.
+     * Heading of the modal - using string is a recommended standard, as it provides well-defined styles. Using it with JSX content should be according to design guidelines.
      */
     title: ElementContent;
     /**

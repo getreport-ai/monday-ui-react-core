@@ -1,9 +1,9 @@
 import { queries } from "@storybook/testing-library";
 import { BoundFunctions, Screen } from "@testing-library/react";
 import { NavigationCommand as NavigationCommandType } from "./constants";
-export type Canvas = HTMLElement | BoundFunctions<typeof queries>;
-export type TestFunction = (canvas: Canvas, args: Record<string, any>) => unknown;
-export type Coordinates = {
+export declare type Canvas = HTMLElement | BoundFunctions<typeof queries>;
+export declare type TestFunction = (canvas: Canvas, args: Record<string, any>) => unknown;
+export declare type Coordinates = {
     x: number;
     y: number;
 };

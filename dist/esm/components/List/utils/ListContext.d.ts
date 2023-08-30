@@ -1,5 +1,5 @@
 import React from "react";
-type ListContextType = {
+declare type ListContextType = {
     /**
      * A callback function which is being called when the item is being focused by keyboard navigation
      * @param ListItem id

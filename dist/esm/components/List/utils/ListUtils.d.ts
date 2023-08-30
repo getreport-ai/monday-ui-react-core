@@ -6,3 +6,5 @@ export declare const useListId: (id: string) => string;
 export declare const getListItemIdByIndex: (childrenRefs: MutableRefObject<HTMLElement[]>, index: number) => string;
 export declare const getListItemIndexById: (childrenRefs: MutableRefObject<HTMLElement[]>, id: string) => number;
 export declare const getListItemComponentType: (listComponent: ListWrapperComponentType | ListWrapperComponentStringType) => ListItemComponentType;
+export declare const getNextListItemIndex: (currentIndex: number, childrenRefs: MutableRefObject<HTMLElement[]>) => number;
+export declare const getPrevListItemIndex: (currentIndex: number, childrenRefs: MutableRefObject<HTMLElement[]>) => number;

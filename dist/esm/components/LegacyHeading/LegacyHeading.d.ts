@@ -1,6 +1,6 @@
 import { DialogPosition, Sizes } from "../../constants";
 import React, { CSSProperties } from "react";
-import { HeadingTypes } from "./HeadingConstants";
+import { HeadingTypes } from "./LegacyHeadingConstants";
 import { VibeComponentProps } from "../../types";
 export interface HeadingProps extends VibeComponentProps {
     type?: HeadingTypes;

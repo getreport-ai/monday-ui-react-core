@@ -123,7 +123,7 @@ export default class Tooltip extends PureComponent<TooltipProps> {
     };
     constructor(props: TooltipProps);
     getContainer(): HTMLElement;
-    renderTooltipContent(): import("react/jsx-runtime").JSX.Element;
+    renderTooltipContent(): JSX.Element;
     onTooltipShow(): void;
     onTooltipHide(): void;
     getTimeSinceLastTooltip(): number;
@@ -131,5 +131,5 @@ export default class Tooltip extends PureComponent<TooltipProps> {
         showDelay: number;
         preventAnimation: boolean;
     };
-    render(): import("react/jsx-runtime").JSX.Element;
+    render(): JSX.Element;
 }

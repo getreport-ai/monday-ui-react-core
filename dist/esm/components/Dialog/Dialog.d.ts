@@ -158,7 +158,7 @@ interface DialogState {
     shouldUseDerivedStateFromProps?: boolean;
     preventAnimation?: boolean;
 }
-export type DialogEvent = React.MouseEvent | React.KeyboardEvent | KeyboardEvent | React.FocusEvent | CustomEvent;
+export declare type DialogEvent = React.MouseEvent | React.KeyboardEvent | KeyboardEvent | React.FocusEvent | CustomEvent;
 export default class Dialog extends PureComponent<DialogProps, DialogState> {
     static hideShowTriggers: typeof HideShowEvent;
     static positions: typeof DialogPosition;
@@ -226,6 +226,6 @@ export default class Dialog extends PureComponent<DialogProps, DialogState> {
     onDialogEnter(): void;
     onDialogLeave(event: React.MouseEvent): void;
     onContentClick(e: React.MouseEvent): void;
-    render(): string | React.ReactElement<any, string | React.JSXElementConstructor<any>>[] | import("react/jsx-runtime").JSX.Element;
+    render(): string | JSX.Element | React.ReactElement<any, string | React.JSXElementConstructor<any>>[];
 }
 export {};

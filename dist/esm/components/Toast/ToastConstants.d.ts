@@ -13,7 +13,7 @@ export declare const defaultIconMap: {
     positive: import("react").FC<import("../Icon/Icons/components/Check").CheckProps>;
     negative: import("react").FC<import("../Icon/Icons/components/Alert").AlertProps>;
 };
-export type ToastAction = {
+export declare type ToastAction = {
     type: ToastActionType;
     content?: string;
     text?: string;

@@ -28,4 +28,4 @@ export declare enum Sizes {
     MEDIUM = "medium",
     LARGE = "large"
 }
-export type SIZES_VALUES = typeof SIZES[keyof typeof SIZES];
+export declare type SIZES_VALUES = typeof SIZES[keyof typeof SIZES];

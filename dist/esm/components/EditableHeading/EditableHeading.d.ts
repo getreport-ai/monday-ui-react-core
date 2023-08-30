@@ -1,7 +1,7 @@
 import React from "react";
 import { HeadingProps } from "../LegacyHeading/LegacyHeading";
 import { EditableInputProps } from "../EditableInput/EditableInput";
-import { HeadingTypes } from "../LegacyHeading/HeadingConstants";
+import { HeadingTypes } from "../LegacyHeading/LegacyHeadingConstants";
 export interface EditableHeadingProps extends EditableInputProps, HeadingProps {
     displayPlaceholderInTextMode?: boolean;
     inputAriaLabel?: string;

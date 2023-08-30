@@ -1,5 +1,5 @@
 import { IComboboxCategoryMap, IComboboxOption } from "./components/ComboboxConstants";
-type OptionsByCategories = {
+declare type OptionsByCategories = {
     [key: string]: Array<IComboboxOption>;
 };
 export declare const getOptionsByCategories: (options: IComboboxOption[], categories: IComboboxCategoryMap, filterValue: string) => OptionsByCategories;
